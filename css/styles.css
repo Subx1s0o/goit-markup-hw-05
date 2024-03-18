@@ -155,6 +155,51 @@ li {
   list-style-type: none;
 }
 
+.btn-form {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: #4d5ae5;
+  border: none;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px #2e2f42;
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  justify-content: center;
+  min-width: 165px;
+  margin-left: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input-footer {
+  border-radius: 4px;
+  min-width: 264px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  max-height: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding: 8px 16px;
+}
+
+.form-input-footer::placeholder {
+  color: #fff;
+}
+
+.subscribe-form {
+  display: flex;
+}
+
 .btn {
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -175,6 +220,11 @@ li {
 
 .btn:hover,
 .btn:focus {
+  background-color: #404bbf;
+}
+
+.btn-form:hover,
+.btn-form:focus {
   background-color: #404bbf;
 }
 
@@ -259,6 +309,7 @@ main {
 }
 
 .social-media {
+  margin-right: 80px;
 }
 
 .social-media .social-icons {
