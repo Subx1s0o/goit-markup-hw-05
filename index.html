@@ -543,7 +543,7 @@
 
             <button class="btn-form" type="submit">
               Subscribe
-              <svg width="24" height="24" class="bc-icon-svg">
+              <svg width="24" height="24" class="bc-footer-icon-svg">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -551,9 +551,9 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
-        <button class="close-btn">
+        <button type="button" class="close-btn">
           <svg width="8" height="8" class="modal-close-icon">
             <use href="./images/icons.svg#close-modal"></use>
           </svg>
@@ -561,14 +561,14 @@
         <p class="p-modal">Leave your contacts and we will call you back</p>
         <form name="modal-window-form">
           <div class="modal-field">
-            <label class="label-input" for="username" id="username-label"
+            <label class="label-input" for="user-name" id="username-label"
               >Name</label
             >
             <div class="icon-divv-modal">
               <input
                 class="modal-input"
-                id="username"
-                name="username"
+                id="user-name"
+                name="user-name"
                 type="text"
               />
               <svg width="18" height="24" class="modal-us-icon">
@@ -608,14 +608,14 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
-            <label class="label-input" for="comment" id="comment-label"
+          <div class="modal-field-textarea">
+            <label class="label-input" for="user-comment" id="comment-label"
               >Comment</label
             >
             <textarea
               id="comment"
               class="modal-input-text"
-              name="comment"
+              name="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
