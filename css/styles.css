@@ -217,6 +217,11 @@ li {
   background-color: #404bbf;
 }
 
+.btn-form-modal:hover,
+.btn-form-modal:focus {
+  background-color: #404bbf;
+}
+
 .btn-form:hover,
 .btn-form:focus {
   background-color: #404bbf;
@@ -248,6 +253,7 @@ li {
 .paragraph-footer {
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .paragraph-footer-social {
@@ -303,7 +309,7 @@ main {
 }
 
 .social-media {
-  margin-right: 80px;
+  margin-right: auto;
 }
 
 .social-media .social-icons {
@@ -464,10 +470,6 @@ main {
 
 .footer-content {
   margin-right: 120px;
-}
-
-.footer .container p {
-  max-width: 264px;
 }
 
 img {
@@ -758,4 +760,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.modal-checkbox:focus + .text-p-modal > .check-empty {
+  border-color: #4d5ae5;
 }
